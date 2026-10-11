@@ -1,0 +1,17 @@
+name: rehan_billing
+description: Rehan's Professional Billing App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # PDF Generate aur Print karne ke plugins
+  pdf: ^3.11.0
+  printing: ^5.12.0
+
+flutter:
+  uses-material-design: true
